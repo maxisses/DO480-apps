@@ -25,5 +25,5 @@ spec:
         - containerPort: 8080
           name: budget-app
       imagePullSecrets:
-      - finance-finance-robot-pull-secret
+      - name: finance-finance-robot-pull-secret
 ---
